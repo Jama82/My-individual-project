@@ -1,0 +1,19 @@
+.carousel {
+	display: flex;
+	justify-content: center;
+}
+
+.css-ahj2mt-MuiTypography-root {
+	font-size: 2rem;
+	font-weight: 700;
+}
+
+.MuiMobileStepper-dot {
+	color: #890f0d;
+}
+@media screen and (max-width: 500px) {
+	Box {
+		max-width: 450px;
+		min-height: auto;
+	}
+}

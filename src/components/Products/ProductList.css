@@ -1,0 +1,26 @@
+.css-t7bnno-MuiFormLabel-root-MuiInputLabel-root,
+.css-1o0voyd-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+	color: #000 !important;
+}
+
+.css-1i9jpbu-MuiInputBase-root-MuiInput-root:before,
+.css-1i9jpbu-MuiInputBase-root-MuiInput-root:after {
+	border-bottom: 1px solid #000 !important;
+}
+
+.css-1x51dt5-MuiInputBase-input-MuiInput-input:focus {
+	color: white;
+}
+
+.text-field {
+	/* background-color: white; */
+
+	color: #000;
+	max-width: 300px;
+	margin: 0 auto;
+	padding: 20px;
+}
+.blog-left {
+	max-width: 1000px;
+	margin: 0 auto;
+}
