@@ -142,8 +142,7 @@ const Contacts = () => {
 							sx={{
 								marginTop: "10vh",
 								backgroundColor: "white",
-								borderRadius: 10,
-								border: "2px solid #890f0d",
+
 								alignItems: "center",
 							}}
 						>
@@ -171,12 +170,12 @@ const Contacts = () => {
 										gutterBottom
 										maxWidth="sm"
 									>
-										United States For questions and assistance related to
-										corporate matters (sponsorship/donations, idea/invention
-										submissions, general feedback for Nike) or for help with
-										product you purchased from an authorized Nike retail
-										partner, please contact us at 1-800-344-6453 (7 a.m. - 4
-										p.m. PT, Monday through Friday).
+										For questions and assistance related to corporate matters
+										(sponsorship/donations, idea/invention submissions, general
+										feedback for Asu bakery) or for help with product you
+										purchased from an authorized Asu retail partner, please
+										contact us at +996774180743 (7 a.m. - 4 p.m. PT, Monday
+										through Friday).
 									</Typography>
 								</Grid>
 

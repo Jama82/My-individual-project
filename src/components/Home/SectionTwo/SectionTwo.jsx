@@ -10,29 +10,26 @@ import KeyboardArrowRight from "@mui/icons-material/KeyboardArrowRight";
 import SwipeableViews from "react-swipeable-views";
 import { autoPlay } from "react-swipeable-views-utils";
 import "./SectionTwo.css";
+import { BakeryDining } from "@mui/icons-material";
 
 const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
 const images = [
 	{
-		label: "All types of bakery products",
 		imgPath:
-			"https://images.unsplash.com/photo-1566698629409-787a68fc5724?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTJ8fGJ1bnN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+			"https://robbreport.com/wp-content/uploads/2017/11/princi_at_the_roastery_featured.jpg?w=1024",
 	},
 	{
-		label: "Croissants",
 		imgPath:
-			"https://images.unsplash.com/photo-1623334044303-241021148842?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y3JvaXNzYW50c3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+			"https://media.blogto.com/articles/20190906-FornoQueen7.jpg?w=2048&cmd=resize_then_crop&height=1365&quality=70",
 	},
 	{
-		label: "Creamy buns",
 		imgPath:
-			"https://media.istockphoto.com/photos/swedish-semla-picture-id509116178?b=1&k=20&m=509116178&s=170667a&w=0&h=OPHSo0lB1HJzZdH_odKzOw-v_qMPHvGLeW2XrBpaJ1E=",
+			"https://media.blogto.com/articles/331c-20110617-Nino20D27Aversa-4.jpg?w=2048&cmd=resize_then_crop&height=1365&quality=70",
 	},
 	{
-		label: "Hachapuri",
 		imgPath:
-			"https://media.istockphoto.com/photos/fresh-homemade-khachapuri-ajarian-on-rustic-wooden-background-picture-id1191485822?b=1&k=20&m=1191485822&s=170667a&w=0&h=_uq1gjLDOD4fm4AR4jdGhj3oyeCKowvqiqaAPt9ELFQ=",
+			"https://romanacakehouse.com/wp-content/uploads/2021/07/featured-1.jpg",
 	},
 ];
 
@@ -55,7 +52,7 @@ function SectionTwo() {
 
 	return (
 		<div className="carousel">
-			<Box sx={{ maxWidth: 1100, flexGrow: 1, minHeight: "auto" }}>
+			<Box sx={{ maxWidth: 1400, flexGrow: 1, minHeight: "auto" }}>
 				<Paper
 					square
 					elevation={0}
@@ -80,7 +77,7 @@ function SectionTwo() {
 									component="img"
 									sx={{
 										height: 700,
-										
+
 										overflow: "hidden",
 										width: "100%",
 										alignItems: "center",

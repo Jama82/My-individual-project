@@ -6,6 +6,7 @@ import croissant from "../../assets/images/croissant.svg";
 import time from "../../assets/images/dingdong.svg";
 import oven from "../../assets/images/oven.svg";
 import credit from "../../assets/images/love.svg";
+import story from "../../assets/images/story.jpeg";
 
 const HomeHeader = () => {
 	return (
@@ -24,18 +25,36 @@ const HomeHeader = () => {
 						FRESH <br /> PASTRY
 						<br /> KITS
 					</h1>
-					<span className="header-txt">
-						<p>
-							Bringing the smells and tastes of your favourite patisserie to
-							your home. Our kits have everything you need to easily make killer
-							pastries every time. We’ve done the tricky bits so all you need to
-							do is roll, proof and bake!
-						</p>
-					</span>
 				</div>
 
 				<div className="hero-img">
 					<img src={hero} alt="" />
+				</div>
+			</div>
+
+			<div className="header-txt">
+				<p>
+					Bringing the smells and tastes of your favourite patisserie to your
+					home. Our kits have everything you need to easily make killer pastries
+					every time. We’ve done the tricky bits so all you need to do is roll,
+					proof and bake! Freshly baked means fresh bakery smells filling your
+					home, warm oozey pastries on your plates, and never needing to get out
+					of your PJs.
+				</p>
+			</div>
+
+			<div className="story">
+				<div className="story-img">
+					<img src={story} sx={{ maxWidth: "100%" }} />
+				</div>
+				<div className="story-txt">
+					<h2>Our Story</h2>
+					<p>
+						We are a quintessential bakery baking from the heart of Kyrgyzstan.
+						Whether it's our slow-fermented sourdough, home-made , all types of
+						bakery - greatest joy of all comes from sharing our work with you.
+						We invite you to our pastries for every day.
+					</p>
 				</div>
 			</div>
 

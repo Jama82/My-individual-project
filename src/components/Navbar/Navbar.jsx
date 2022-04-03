@@ -8,9 +8,9 @@ import Menu from "@mui/material/Menu";
 import MenuIcon from "@mui/icons-material/Menu";
 import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
-
+import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
-import FavoriteIcon from "@mui/icons-material/Favorite";
+// import FavoriteIcon from "@mui/icons-material/Favorite";
 import { Link } from "react-router-dom";
 import { useAuth } from "../../contexts/AuthContexts";
 import { ADMIN } from "../../helpers/consts";
@@ -86,7 +86,7 @@ const Navbar = () => {
 							aria-controls="menu-appbar"
 							aria-haspopup="true"
 							onClick={handleOpenNavMenu}
-							color="inherit"
+							sx={{ color: "#890f0d" }}
 						>
 							<MenuIcon />
 						</IconButton>
@@ -189,7 +189,7 @@ const Navbar = () => {
 							</Link>
 						)}
 
-						<Link to="/cart">
+						{/* <Link to="/cart">
 							<Button sx={{ my: 2, color: "#890f0d" }}>
 								<Badge
 									badgeContent={cart?.products ? cart.products.length : 0}
@@ -199,7 +199,7 @@ const Navbar = () => {
 									<FavoriteIcon />
 								</Badge>
 							</Button>
-						</Link>
+						</Link> */}
 						{/* ADMIN PANEL */}
 					</Box>
 					<Box sx={{ flexGrow: 0 }}>

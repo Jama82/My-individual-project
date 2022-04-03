@@ -36,8 +36,8 @@ export default function MediaCard({ item }) {
 				sx={{
 					borderRadius: 3,
 					width: "400px",
-					height: "550px",
-					// border: "10px solid #4cd137",
+					height: "450px",
+					border: "5px solid #890f0d",
 				}}
 			>
 				<div className="cardProduct">
@@ -75,8 +75,7 @@ export default function MediaCard({ item }) {
 						<IconButton onClick={() => addProductToCart(item)}>
 							<LocalMallIcon
 								color={checkProductInCart(item.id) ? "primary" : ""}
-							/>
-							<FavoriteIcon />
+							/>{" "}
 						</IconButton>
 					)}
 				</CardActions>

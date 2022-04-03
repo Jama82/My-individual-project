@@ -4,13 +4,23 @@ a {
 }
 
 .footer {
-	display: flex;
-	flex-wrap: wrap;
 	background-image: url("https://t4.ftcdn.net/jpg/01/05/50/41/360_F_105504104_rMTSWGJklAeG3N2NCHtkVimShbDC03si.jpg");
 	background-repeat: repeat;
 	max-width: 100%;
 	height: 300px;
 	margin-top: 50px;
+}
+
+.ftr-txt {
+	max-width: 60%;
+	min-height: 200px;
+	background-color: #890f0d;
+	border-radius: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	margin: 0 auto;
 }
 .footer-menu {
 	list-style: none;
@@ -19,15 +29,17 @@ a {
 .footer-menu {
 	font-size: 22px;
 	list-style: none;
-	color: #890f0d;
+	color: #fff;
+	font-family: "Open Sans", sans-serif;
 }
 .footer-menu:hover {
 	color: orange;
 }
 
 .footer-list {
-	color: #890f0d;
+	color: #fff;
 	list-style: none;
+	font-family: "Open Sans", sans-serif;
 }
 .footer-list:hover {
 	color: orange;
